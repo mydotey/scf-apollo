@@ -3,7 +3,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.mydotey.scfapollo</groupId>
+    <groupId>org.mydotey.scf.apollo</groupId>
     <artifactId>parent</artifactId>
     <version>1.0.0</version>
     <packaging>pom</packaging>
@@ -59,7 +59,7 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>org.mydotey.scf</groupId>
+                <groupId>org.mydotey.scf.apollo</groupId>
                 <artifactId>scf-apollo</artifactId>
                 <version>${project.version}</version>
             </dependency>

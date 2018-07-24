@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.mydotey.scfapollo</groupId>
+        <groupId>org.mydotey.scf.apollo</groupId>
         <artifactId>parent</artifactId>
         <version>1.0.0</version>
         <relativePath>../pom.xml</relativePath>

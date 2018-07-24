@@ -11,7 +11,7 @@ apollo-client is not in the central repository, please use your owner repo relea
     <version>0.10.2</version>
 </dependency>
 <dependency>
-    <groupId>org.mydotey.scfapollo</groupId>
+    <groupId>org.mydotey.scf.apollo</groupId>
     <artifactId>scf-apollo</artifactId>
     <version>1.0.0</version>
 </dependency>
