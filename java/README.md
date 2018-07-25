@@ -13,7 +13,7 @@ apollo-client is not in the central repository, please use your owner repo relea
 <dependency>
     <groupId>org.mydotey.scf.apollo</groupId>
     <artifactId>scf-apollo</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 </dependency>
 ```
 
