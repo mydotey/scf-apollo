@@ -5,7 +5,7 @@
 
     <groupId>org.mydotey.scf.apollo</groupId>
     <artifactId>parent</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <packaging>pom</packaging>
     <name>parent</name>
     <description>scf apollo parent</description>
@@ -43,7 +43,7 @@
         <source.encoding>UTF-8</source.encoding>
         <slf4j.version>1.7.21</slf4j.version>
         <scf.version>1.2.1</scf.version>
-        <apollo.version>0.6.6</apollo.version>
+        <apollo.version>1.0.0</apollo.version>
         <junit.version>4.12</junit.version>
         <maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
         <maven-source-plugin.version>3.0.1</maven-source-plugin.version>

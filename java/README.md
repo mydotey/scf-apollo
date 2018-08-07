@@ -2,18 +2,16 @@
 
 ## maven dependency
 
-apollo-client is not in the central repository, please use your owner repo release, see also: [apollo-client](https://github.com/ctripcorp/apollo/wiki/Java%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97#%E4%BA%8Cmaven-dependency)
-
 ```xml
 <dependency>
     <groupId>com.ctrip.framework.apollo</groupId>
     <artifactId>apollo-client</artifactId>
-    <version>0.10.2</version>
+    <version>1.0.0</version>
 </dependency>
 <dependency>
     <groupId>org.mydotey.scf.apollo</groupId>
     <artifactId>scf-apollo</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
 </dependency>
 ```
 
