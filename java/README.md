@@ -4,14 +4,9 @@
 
 ```xml
 <dependency>
-    <groupId>com.ctrip.framework.apollo</groupId>
-    <artifactId>apollo-client</artifactId>
-    <version>1.0.0</version>
-</dependency>
-<dependency>
     <groupId>org.mydotey.scf.apollo</groupId>
     <artifactId>scf-apollo</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
 </dependency>
 ```
 
