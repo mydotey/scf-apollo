@@ -5,7 +5,7 @@
 
     <groupId>org.mydotey.scf</groupId>
     <artifactId>scf-apollo</artifactId>
-    <version>1.1.0</version>
+    <version>1.1.1</version>
     <packaging>jar</packaging>
     <name>scf-apollo</name>
     <description>scf apollo configuration source</description>
@@ -42,7 +42,7 @@
         <java.version>1.8</java.version>
         <source.encoding>UTF-8</source.encoding>
         <slf4j.version>1.7.21</slf4j.version>
-        <scf.version>1.4.0</scf.version>
+        <scf-simple.version>1.4.1</scf-simple.version>
         <apollo.version>1.0.0</apollo.version>
         <junit.version>4.12</junit.version>
         <maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
@@ -57,7 +57,7 @@
             <dependency>
                 <groupId>org.mydotey.scf</groupId>
                 <artifactId>scf-simple</artifactId>
-                <version>${scf.version}</version>
+                <version>${scf-simple.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.ctrip.framework.apollo</groupId>
