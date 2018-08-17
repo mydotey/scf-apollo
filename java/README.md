@@ -6,7 +6,7 @@
 <dependency>
     <groupId>org.mydotey.scf</groupId>
     <artifactId>scf-apollo</artifactId>
-    <version>1.1.1</version>
+    <version>1.1.2</version>
 </dependency>
 ```
 
