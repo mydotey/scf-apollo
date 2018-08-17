@@ -3,11 +3,32 @@
 ## maven dependency
 
 ```xml
-<dependency>
-    <groupId>org.mydotey.scf</groupId>
-    <artifactId>scf-apollo</artifactId>
-    <version>1.1.2</version>
-</dependency>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.mydotey.scf</groupId>
+                <artifactId>scf-bom</artifactId>
+                <version>1.4.1</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.mydotey.scf</groupId>
+            <artifactId>scf-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.mydotey.scf</groupId>
+            <artifactId>scf-simple</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.mydotey.scf</groupId>
+            <artifactId>scf-apollo</artifactId>
+        </dependency>
+    </dependencies>
 ```
 
 ## Usage
