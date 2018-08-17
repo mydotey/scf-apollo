@@ -7,16 +7,11 @@ import org.mydotey.scf.source.stringproperty.StringPropertyConfigurationSource;
  *
  * Jul 24, 2018
  */
-public class ApolloConfigurationSource extends StringPropertyConfigurationSource {
+public class ApolloConfigurationSource extends StringPropertyConfigurationSource<ApolloConfigurationSourceConfig> {
 
     public ApolloConfigurationSource(ApolloConfigurationSourceConfig config) {
         super(config);
         getConfig().getApolloConfig().addChangeListener(e -> ApolloConfigurationSource.this.raiseChangeEvent());
-    }
-
-    @Override
-    public ApolloConfigurationSourceConfig getConfig() {
-        return (ApolloConfigurationSourceConfig) super.getConfig();
     }
 
     @Override

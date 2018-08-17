@@ -3,12 +3,12 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.mydotey.scf.apollo</groupId>
-    <artifactId>parent</artifactId>
-    <version>1.0.3</version>
-    <packaging>pom</packaging>
-    <name>parent</name>
-    <description>scf apollo parent</description>
+    <groupId>org.mydotey.scf</groupId>
+    <artifactId>scf-apollo</artifactId>
+    <version>1.1.0</version>
+    <packaging>jar</packaging>
+    <name>scf-apollo</name>
+    <description>scf apollo configuration source</description>
     <url>https://github.com/mydotey/scf-apollo</url>
 
     <licenses>
@@ -42,7 +42,7 @@
         <java.version>1.8</java.version>
         <source.encoding>UTF-8</source.encoding>
         <slf4j.version>1.7.21</slf4j.version>
-        <scf.version>1.3.0</scf.version>
+        <scf.version>1.4.0</scf.version>
         <apollo.version>1.0.0</apollo.version>
         <junit.version>4.12</junit.version>
         <maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
@@ -52,17 +52,8 @@
         <nexus-staging-plugin.version>1.6.7</nexus-staging-plugin.version>
     </properties>
 
-    <modules>
-        <module>scf-apollo</module>
-    </modules>
-
     <dependencyManagement>
         <dependencies>
-            <dependency>
-                <groupId>org.mydotey.scf.apollo</groupId>
-                <artifactId>scf-apollo</artifactId>
-                <version>${project.version}</version>
-            </dependency>
             <dependency>
                 <groupId>org.mydotey.scf</groupId>
                 <artifactId>scf-simple</artifactId>
@@ -87,6 +78,27 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.mydotey.scf</groupId>
+            <artifactId>scf-simple</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.ctrip.framework.apollo</groupId>
+            <artifactId>apollo-client</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
     <build>
         <plugins>
