@@ -8,8 +8,9 @@ We can config properties in Apollo management system, but don't care Apollo when
 
 ## Usage
 
-* java
-  https://github.com/mydotey/scf-apollo/tree/master/java
+* java: https://github.com/mydotey/scf-apollo/tree/master/java
+
+* dotnet: https://github.com/mydotey/scf-apollo/tree/master/dotnet
 
 ## Developers
 
