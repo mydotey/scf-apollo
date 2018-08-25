@@ -37,7 +37,7 @@ namespace MyDotey.SCF.Apollo
             // add listener for dynamic property
             IProperty<string, int?> requestTimeout = properties.GetIntProperty("request.timeout", 1000);
             Console.WriteLine("request timeout: " + requestTimeout.Value);
-            requestTimeout.AddChangeListener(e => Console.WriteLine("do something"));
+            requestTimeout.OnChange += (o, e) => Console.WriteLine("do something");
         }
     }
 }

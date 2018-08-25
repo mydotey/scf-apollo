@@ -3,7 +3,7 @@
 ## NuGet Package
 
 ```sh
-dotnet add package MyDotey.SCF.Apollo --version 1.1.0
+dotnet add package MyDotey.SCF.Apollo --version 1.1.1
 ```
 
 ## Usage
@@ -33,6 +33,6 @@ public virtual void TestDemo()
     // add listener for dynamic property
     IProperty<string, int?> requestTimeout = properties.GetIntProperty("request.timeout", 1000);
     Console.WriteLine("request timeout: " + requestTimeout.Value);
-    requestTimeout.AddChangeListener(e => Console.WriteLine("do something"));
+    requestTimeout.OnChange += (o, e) => Console.WriteLine("do something");
 }
 ```
