@@ -3,13 +3,13 @@
 ## NuGet Package
 
 ```sh
-dotnet add package MyDotey.SCF.Apollo --version 1.2.1
+dotnet add package MyDotey.SCF.Apollo --version 1.2.2
 ```
 
 Or use a single meta package
 
 ```sh
-dotnet add package MyDotey.SCF.Bom -v 1.5.1
+dotnet add package MyDotey.SCF.Bom -v 1.5.2
 ```
 
 ## Usage
