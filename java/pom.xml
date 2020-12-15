@@ -44,7 +44,7 @@
         <slf4j.version>1.7.21</slf4j.version>
         <scf-simple.version>1.6.4</scf-simple.version>
         <apollo.version>1.0.0</apollo.version>
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
         <maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
         <maven-source-plugin.version>3.0.1</maven-source-plugin.version>
         <maven-doc-plugin.version>3.0.0</maven-doc-plugin.version>
